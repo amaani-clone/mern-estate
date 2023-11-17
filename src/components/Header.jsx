@@ -24,9 +24,9 @@ const Header = () => {
             <FaSearch className="text-slate-600" />
           </form>
           <ul className="flex gap-4 font-medium text-lg">
-            <Link to="/">
+            <Link to="/profile">
               <li className="hidden sm:inline text-slate-800 hover:underline">
-                Home
+                Profile
               </li>
             </Link>
             <Link to="/about">
