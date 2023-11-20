@@ -16,7 +16,7 @@ const SignUp = () => {
     e.preventDefault();
     try {
       setLoading(true);
-      console.log("inside sign");
+      // console.log("inside sign");
       const res = await fetch("/api/auth/signup", {
         method: "POST",
         headers: {
